@@ -566,7 +566,7 @@ void CCheat::MoneyArmourHealthCheat() {
     CPlayerPed* player = FindPlayerPed();
     CPlayerInfo* playerInfo = player->GetPlayerInfoForThisPlayerPed();
 
-    playerInfo->m_nMoney += 250000;
+    playerInfo->m_nMoney += 100;
     player->m_fArmour = playerInfo->m_nMaxArmour;
     HealthCheat();
 }
