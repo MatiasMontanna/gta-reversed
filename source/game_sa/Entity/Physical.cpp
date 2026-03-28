@@ -93,7 +93,7 @@ CPhysical::CPhysical() : CEntity()
 
     m_fMass = 1.0f;
     m_fTurnMass = 1.0f;
-    m_fVelocityFrequency = 1.0f;
+    m_fVelocityFrequency = 9.0f;
     m_fAirResistance = 0.1f;
     m_pMovingList = nullptr;
     m_nFakePhysics = 0;
